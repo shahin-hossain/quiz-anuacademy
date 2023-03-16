@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.head-sub-sec{
+   
+}
+.btn-sub-sec{
+   
+    
+}
+
+.head-section h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#27272A;
+    
+}
+.head-section p{
+    font-size: 0.8rem;
+    
+}
+.blog-btn{
+    font-size: 15px;
+    padding: 9px 25px;
+    border: none;
+    background-color: #16A34A;
+    border-radius: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;    
+}
+/*-------------
+Main Section Start
+----------------*/
+.welcome-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.quize-head{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 3rem;
+    color: #27272A;
+}
+.quize-section{
+    padding-top: 3rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    width: 80%;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    .quize-section{
+        width: 100%;
+    }
+}
+
+.inner-btn{
+    text-decoration: none;
+    background-color: #16A34A;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 0.3rem;
+
+}
+.quize-section span{
+    background-color: #FED7AA;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.sumbit-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.sumbit-btn a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: #16A34A;
+    padding: 10px 100px ;
+    color: white;
+    border-radius: 5px; 
+}
+.footer-sec{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
